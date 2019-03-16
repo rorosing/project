@@ -1,0 +1,9 @@
+/target/
+### Intellij Specific ###
+.idea
+*.jar
+*.log
+
+
+
+### Specific files ###
