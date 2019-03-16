@@ -1,6 +1,6 @@
-/target/
+**/target/
 ### Intellij Specific ###
-.idea
+**/.idea/
 *.jar
 *.log
 
