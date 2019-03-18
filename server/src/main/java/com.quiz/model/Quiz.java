@@ -15,13 +15,6 @@ public class Quiz implements Serializable {
     @NotNull
     private String description;
 
-    @OneToMany(
-            cascade = CascadeType.ALL,
-            orphanRemoval = true,
-            mappedBy = "quiz"
-    )
-    private List<Question> questions = new ArrayList<>();
-
     //Getters and Setters
 
     public Long getId() {
@@ -40,11 +33,4 @@ public class Quiz implements Serializable {
         this.description = description;
     }
 
-    public List<Question> getQuestions() {
-        return questions;
-    }
-
-    public void setQuestions(List<Question> questions) {
-        this.questions = questions;
-    }
 }

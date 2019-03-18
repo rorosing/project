@@ -22,10 +22,6 @@ public class Question implements Serializable {
     )
     private List<Answer> answers = new ArrayList<>();
 
-    @ManyToOne
-    @JoinColumn
-    private Quiz quiz;
-
     //Getters & Setters
     public Long getId() {
         return id;
@@ -51,11 +47,4 @@ public class Question implements Serializable {
         this.answers = answers;
     }
 
-    public Quiz getQuiz() {
-        return quiz;
-    }
-
-    public void setQuiz(Quiz quiz) {
-        this.quiz = quiz;
-    }
 }
