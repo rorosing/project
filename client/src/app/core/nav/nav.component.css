@@ -1,0 +1,52 @@
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.navbar {
+  background-color: #2e6cbc;
+  border-color: #1a3d6a;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar .nav>li>a {
+  float: none;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #008d95;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+  background-color: transparent;
+  color: #ddd !important;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #ddd !important;
+  background-color: #1c62bb;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+  background-color: #275da1 !important;
+  color: #ddd;
+}
+
+.nav-pills>li>a {
+  background-color: #eeeeee;
+}
+
+.navbar-text {
+  color: #fff !important;
+}
